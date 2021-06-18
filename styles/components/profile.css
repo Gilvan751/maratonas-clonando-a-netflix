@@ -13,7 +13,21 @@
     width:65px;;
     height:60px;
 }
+
+.profile__img--big {
+    width:100px;;
+    height:92px;
+}
+
 .profile__text {
     font-size:12px;
     margin-top:5px;
+}
+
+.profile--grid {
+    display:grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 22px;
+    justify-content:center;
+        
 }
