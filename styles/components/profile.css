@@ -1,0 +1,19 @@
+.profile {
+    display:flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.profile__group {
+    text-align: center;
+    
+}
+.profile__img {
+    width:65px;;
+    height:60px;
+}
+.profile__text {
+    font-size:12px;
+    margin-top:5px;
+}
