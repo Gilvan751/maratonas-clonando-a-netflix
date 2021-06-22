@@ -1,7 +1,19 @@
 body {
     background: black;
+    max-width: 430px;
+    margin: 0 auto;
 }
-p, h1, h2, h3, h4, h5, h6, span, strong {
+    
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+strong {
     color: #fff;
     font-family: 'roboto', arial, helvetica, sans-serif;
 }
