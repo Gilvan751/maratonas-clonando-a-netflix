@@ -2,5 +2,19 @@
 @import url(../components/staus-bar.css);
 @import url(../components/profile.css);
 
+#animation {
+    animation-name: pageload;
+    animation-duration: 1000ms
+}
 
+@keyframes pageload {
+    from {
+        transform:scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform:scale(1);
+        opacity: 1;
+    }
+}
 
