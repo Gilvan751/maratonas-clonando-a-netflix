@@ -15,6 +15,9 @@ strong {
     color: #fff;
     font-family: 'roboto', arial, helvetica, sans-serif;
 }
+a {
+    text-decoration:none;
+}
 
 .max-resolution {
     display:none;
