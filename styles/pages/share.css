@@ -1,0 +1,81 @@
+.share {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.share__background {
+    background-color: #1a1a1a;
+
+}
+.share__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;;
+}
+
+.share-title__text {
+    margin-left: 9px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.share__subtitle {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 8px;;
+
+}
+.share__terms {
+ margin-bottom: 11px;
+ text-decoration: underline;
+ font-size: 11px;
+ color:#c4c4c4;
+ font-weight: 500;
+}
+
+.share-copy {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 21px;
+}
+
+.share-copy__input {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    padding-left: 10px;
+    width: 230px;
+    font-size: 11px;;
+    height:37px;
+
+}
+.share-copy__input::placeholder {
+    color:#fff;
+
+}
+
+.share-copy__btn {
+    border: none;
+    font-size:17px;
+    font-weight: 600;
+    width:96px;
+    height: 37px;
+    border-radius: 2px;
+}
+
+.share-social {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.share-social__division {
+
+    height: 41px;
+    width: 1px;
+    background-color: #8c8787;
+}
