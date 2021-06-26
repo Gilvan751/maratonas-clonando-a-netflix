@@ -3,11 +3,7 @@
 @import '../components/edit-coming.css';
 @import '../components/bottom-navbar.css';
 
-.bottom-navbar__background {
-    width: 90%;
-    position: fixed;
-    bottom: 0;
-  }
+
 
 
 

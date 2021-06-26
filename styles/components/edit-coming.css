@@ -115,7 +115,7 @@ p {
     color: #fff;
     margin:25px 0 17px 0;
    justify-content:space-evenly;
-   font-size:11px
+   font-size:11px;
 }
 .text {
     font-family: SF Pro Display;
@@ -128,3 +128,4 @@ p {
     color: #ffffff83;
 
 }
+
