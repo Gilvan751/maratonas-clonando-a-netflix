@@ -1,42 +1,42 @@
-@import url(/utils/index.css);
-@import url(../components/staus-bar.css);
-@import url(../components/movie.css);
-@import url(../components/navbar.css);
-@import url(../components/bottom-navbar.css);
-@import url(../components/play.css);
-@import url(../components/edit-coming.css);
-
+@import '../utils/index.css';
+@import '../components/status-bar.css';
+@import '../components/movie.css';
+@import '../components/navbar.css';
+@import '../components/bottom-navbar.css';
+@import '../components/play.css';
 
 body {
-    position: relative;
+  position: relative;
 }
-.wallpaper{
-   position: absolute;
-   top: 0;
-   z-index: -1;
-   width: 100%;
 
+.wallpaper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
+
 .play {
-    margin-top: 293px;
-    margin-bottom:43px
+  margin-top: 293px;
+  margin-bottom: 43px;
 }
 
 .title {
-    margin-left: 12px;
-    font-weight: 700;
-    font-size: 21px;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 21px;
 }
+
 .title--big {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 #previews {
-    margin-top:23px;
-    margin-bottom:28px;
+  margin-top: 23px;
+  margin-bottom: 28px;
 }
 
 .movie {
-    margin-top:14px;
-    margin-bottom:22px;
+  margin-top: 14px;
+  margin-bottom: 22px;
 }

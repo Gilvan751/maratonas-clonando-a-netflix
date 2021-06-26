@@ -1,31 +1,30 @@
-@import url(/utils/index.css);
-@import url(../components/staus-bar.css);
-@import url(../components/edit-navbar.css);
-@import url(../components/profile.css);
-@import url(../components/bottom-navbar.css);
-@import url(../pages/share.css);
-@import url(/styles/components/settings.css);
+@import '../utils/index.css';
+@import '../components/status-bar.css';
+@import '../components/bottom-navbar.css';
+@import '../components/profile.css';
+@import '../components/share.css';
+@import '../components/settings.css';
 
-.manege {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2px;
+.manage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px;
 }
 
-.manege__text {
-    font-size:14px;
-    font-weight: 500;
-    color: #ffffff81;
-    line-height:30px;
-    margin-left: 6px;
+.manage__text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff81;
+  line-height: 30px;
+  margin-left: 6px;
 }
 
 .profile {
-    margin-top:40px;
-    margin-bottom:10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .settings {
-    margin-bottom: 81px;
+  margin-bottom: 81px;
 }

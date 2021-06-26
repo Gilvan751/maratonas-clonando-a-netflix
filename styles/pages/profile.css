@@ -1,16 +1,15 @@
-@import url(/utils/index.css);
-@import url(../components/staus-bar.css);
-@import url(../components/edit-navbar.css);
-@import url(../components/profile.css);
+@import '../utils/index.css';
+@import '../components/status-bar.css';
+@import '../components/edit-navbar.css';
+@import '../components/profile.css';
 
 .edit-navbar {
-    margin-top:13px;
+  margin-top: 13px;
 }
 
 .center {
-    display:flex;
-    height:calc(100vh - 94px);
-    justify-content:center;
-    align-items: center;
+  display: flex;
+  height: calc(100vh - 95px);
+  justify-content: center;
+  align-items: center;
 }
-
