@@ -1,11 +1,14 @@
-@import url(/utils/index.css);
-@import url(../components/staus-bar.css);
-@import url(../components/edit-navbar.css);
-@import url(../components/edit-coming.css);
-@import url(../components/profile.css);
-@import url(../components/bottom-navbar.css);
-@import url(../pages/share.css);
-@import url(/styles/components/settings.css);
+@import '../utils/index.css';
+@import '../components/status-bar.css';
+@import '../components/edit-coming.css';
+@import '../components/bottom-navbar.css';
+
+.bottom-navbar__background {
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+  }
+
 
 
 

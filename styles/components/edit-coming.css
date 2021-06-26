@@ -1,75 +1,78 @@
 body {
-    width: 90%;
-    margin: 0 auto;
+    width:90%;
+    margin:0 auto;
 }
 
-
-
-
 .alert {
-    display: flex;
-    align-items: center;
-    margin-top: 16px;
+    display:flex;
+    align-items:center;
+    margin-top:16px;
     margin-bottom:20px;
 }
 .alert img {
-    margin-right: 7px;;
+    margin-right:7px;
 }
 .alert h2 {
-    font-family: 'SF Pro Display', sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 13px;
-    text-align: center;
-
+    font-family:'SF Pro Display', sans-serif;
+    font-size:17px;
+    font-weight:700;
+    line-height:13px;
+    text-align:center;
 }
-
+/* El chapo */
 .search-movie {
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:center;
   }
   
-  .search-movie__background {
-    background-color: #424242;
+.search-movie__background {
+    background-color:#424242;
   }
   
   .search-movie__img {
-    height: 76px;
-    width: 146px;
+    height:76px;
+    width:146px;
   }
   
   .search-movie__play {
-    align-items: center;
-    width: 55%;
-    margin-left: 30px;
-    margin-bottom: 6px;;
+    align-items:center;
+    width:55%;
+    line-height:18px;
+    margin-left:30px;
+    margin-bottom:6px;;
   }
   .search-movie__play h3 {
-    font-family: 'SF Pro Display', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 10px;
-    letter-spacing: -0.037645064294338226px;
-    text-align: left;
-    color: #ffffff48;
-    margin-top: 6px;;
-    
+    font-family:'SF Pro Display', sans-serif;
+    font-size:11px;
+    font-weight:500;
+    line-height:10px;
+    letter-spacing:-0.037645064294338226px;
+    text-align:left;
+    color:#ffffff48;
+    margin-top:6px;    
   }
-/*  */
+  /* final el chapo */
+  /* Estilização dos filmes em destaque */
   .debut {
-    width: 95%;
-    margin: 0 auto;
+    width:95%;
+    margin:0 auto;
 }
 .debut1 {
-    margin-top: 25px;
+    margin-top:25px;
     width:100%;
+}
+
+.debut1 img {
+    width:100%; 
+ 
 }
 
 .debut__bottom {
     display:flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content:flex-end;
+    align-items:center;
     gap:48px;
+    margin-top:7px;
 }
 
 .debut__icon {
@@ -78,60 +81,50 @@ body {
 
 .debut__text {
     font-size:14px;
-    margin-top: 12px;
+    margin-top:12px;
 }
 
 
  
 .subtitle {
-    font-family: 'SF Pro Display', sans-serif;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 14px;
-    letter-spacing: -0.05120747163891792px;
-    text-align: left;
-    margin-bottom: 13px;
-    color: #ffffff83;
+    font-family:'SF Pro Display', sans-serif;
+    font-size:19px;
+    font-style:normal;
+    font-weight:700;
+    line-height:14px;
+    letter-spacing:-0.05120747163891792px;
+    text-align:left;
+    margin-bottom:13px;
+    color:#ffffff83;
 
 }
 
 p {
-    font-family: 'SF Pro Display', sans-serif;
+    font-family:'SF Pro Display', sans-serif;
+    font-size:11px;
+    font-style:normal;
+    font-weight:400;
+    line-height:14px;
+    letter-spacing:-0.030563583597540855px;
+    text-align:left;
+    margin-bottom:7px;
+
+}
+.lista  {
+    display:flex;
+    color: #fff;
+    margin:25px 0 17px 0;
+   justify-content:space-evenly;
+   font-size:11px
+}
+.text {
+    font-family: SF Pro Display;
     font-size: 11px;
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: -0.030563583597540855px;
     text-align: left;
-    margin-bottom: 7px;
+    color: #ffffff83;
 
 }
-.lista  {
-    display: flex;
-    color: #fff;
-    margin: 25px 0 17px 0;
-   justify-content:space-evenly;
-   font-size: 11px
-}
-.text {
-    font-family: SF Pro Display;
-font-size: 11px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: -0.030563583597540855px;
-text-align: left;
-color: #ffffff83;
-
-}
-
-.bottom-navbar__background {
-    width:100%;
-    position: fixed;
-    bottom:0;
- 
- }
-  
-  
-
