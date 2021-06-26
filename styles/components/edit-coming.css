@@ -126,7 +126,12 @@ color: #ffffff83;
 
 }
 
-
+.bottom-navbar__background {
+    width:100%;
+    position: fixed;
+    bottom:0;
+ 
+ }
   
   
 
