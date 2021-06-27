@@ -22,7 +22,7 @@ Clonando a Netflix foi um desafio Front-end  mobile construída durante a 1ª ed
 
 ## Layout mobile <br><br>
 
-![Tela Inicial](./screenshots/inicial.png) ![Home](./screenshots/Home.png)<br>
+![Tela Inicial](./screenshots/inicial.png)![Home](./screenshots/Home.png)<br>
 ![Home](./screenshots/Profile.png)   ![Home](./screenshots/Search.png)<br>
 ![Home](./screenshots/Coming.png)   ![Home](./screenshots/More.png)<br>
 
