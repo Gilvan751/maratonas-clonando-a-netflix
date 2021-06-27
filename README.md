@@ -2,6 +2,8 @@
 
 # Clonando a Netflix
 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Gilvan751/maratonas-clonando-a-netflix/blob/main/LICENSE) 
+
 
 # Sobre o projeto
 
@@ -62,9 +64,8 @@ Gilvan Oliveira Silva
 https://www.gilvanguru.com.br
 
 ## Referências:
-- Daniel Berg(team)
+- Daniel Bergholz(team)
 - Bruno Fraga(team)
-- Luã Álvaro (team)
 - https://hub.maratonas.academy
 
 
